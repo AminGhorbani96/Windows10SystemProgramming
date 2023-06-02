@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HandleJustOneInstanceRunnin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetSystemDirectoryProject", "GetSystemDirectoryProject\GetSystemDirectoryProject.vcxproj", "{24828B71-5C3B-4B59-A165-893895867CE8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormatMessageProject", "FormatMessageProject\FormatMessageProject.vcxproj", "{174BD490-E727-41E5-A0C6-1048634B3FDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{24828B71-5C3B-4B59-A165-893895867CE8}.Release|x64.Build.0 = Release|x64
 		{24828B71-5C3B-4B59-A165-893895867CE8}.Release|x86.ActiveCfg = Release|Win32
 		{24828B71-5C3B-4B59-A165-893895867CE8}.Release|x86.Build.0 = Release|Win32
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Debug|x64.ActiveCfg = Debug|x64
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Debug|x64.Build.0 = Debug|x64
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Debug|x86.Build.0 = Debug|Win32
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Release|x64.ActiveCfg = Release|x64
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Release|x64.Build.0 = Release|x64
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Release|x86.ActiveCfg = Release|Win32
+		{174BD490-E727-41E5-A0C6-1048634B3FDD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
