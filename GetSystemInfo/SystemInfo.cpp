@@ -4,7 +4,7 @@ int main()
 {
 	// link : https://learn.microsoft.com/en-us/windows/win32/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo
 	SYSTEM_INFO si;
-	GetNativeSystemInfo(&si);
+	::GetNativeSystemInfo(&si);
 
 	printf("dwPageSize : %d\n", si.dwPageSize);
 	printf("lpMinimumApplicationAddress : 0x%p\n", si.lpMinimumApplicationAddress);
