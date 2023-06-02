@@ -3,7 +3,7 @@
 
 int main()
 {
-	HANDLE hMutex = CreateMutex(NULL, TRUE, TEXT("MyMutext"));
+	HANDLE hMutex = CreateMutex(NULL, TRUE, TEXT("AminMutex"));
 	if (hMutex == NULL || GetLastError() == ERROR_ALREADY_EXISTS) {
 		printf("THere is one instance of this programm \n");
 
@@ -12,6 +12,7 @@ int main()
 	{
 		printf("Running ...");
 	}
+
 
 	getchar();
 	CloseHandle(hMutex);
