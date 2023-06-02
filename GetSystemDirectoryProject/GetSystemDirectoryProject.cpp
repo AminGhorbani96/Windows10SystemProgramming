@@ -3,7 +3,7 @@
 
 int main()
 {
-	wchar_t systemDir[MAX_PATH];
+	WCHAR systemDir[MAX_PATH];
 	INT status = ::GetSystemDirectory(systemDir, MAX_PATH);
 
 	if (status == 0)

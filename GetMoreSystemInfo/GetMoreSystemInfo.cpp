@@ -12,7 +12,7 @@ int main()
 	printf("ProcessorType : 0x%d\n", si.dwProcessorType);
 	printf(" >> ComputerName : \n");
 
-	wchar_t computerName[MAX_COMPUTERNAME_LENGTH] = L"";
+	WCHAR computerName[MAX_COMPUTERNAME_LENGTH] = L"";
 	DWORD bufferSize = sizeof(computerName);
 
 	BOOL state = ::GetComputerName(computerName, &bufferSize);
@@ -26,7 +26,7 @@ int main()
 		printf("Computer Name is : %ws\n", computerName);
 	}
 
-	wchar_t winDir[MAX_PATH] = L"";
+	WCHAR winDir[MAX_PATH] = L"";
 	UINT winDirState = ::GetWindowsDirectory(winDir, MAX_PATH);
 	if (!winDirState)
 	{

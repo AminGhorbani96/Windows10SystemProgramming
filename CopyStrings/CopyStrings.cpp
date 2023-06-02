@@ -2,9 +2,9 @@
 
 int main()
 {
-	const wchar_t* source = TEXT("Hello Wordl !;");
+	const WCHAR* source = TEXT("Hello Wordl !;");
 	std::wcout << source << std::endl;
-	wchar_t unSafeBuffer[5]; // +1 to accommodate for the null terminator
+	WCHAR unSafeBuffer[5]; // +1 to accommodate for the null terminator
 	wcscpy(unSafeBuffer, source);
 
 	std::wcout << TEXT("unSafeBuffer[5] : ") << unSafeBuffer << std::endl;
@@ -15,7 +15,7 @@ int main()
 	std::wcout << TEXT("cchBuffer[5] : ") << cchBuffer << std::endl;
 
 	WCHAR* safeBuffer = (WCHAR*)malloc(5 * sizeof(WCHAR));
-	wcscpy_s(safeBuffer, 5, source); // 5 is char numbers no bytes
+	wcscpy_s(safeBuffer, 5, source); // 5 is CHAR numbers no bytes
 
 	std::wcout << TEXT("safeBuffer[5] : ") << safeBuffer << std::endl;
 	free(safeBuffer);

@@ -1,6 +1,6 @@
 #include "pch.h"
 
-int main(int argc, const char* argv[])
+int main(int argc, const CHAR* argv[])
 {
 
 	if (argc < 2)
