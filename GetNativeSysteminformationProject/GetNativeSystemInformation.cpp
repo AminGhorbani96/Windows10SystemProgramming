@@ -11,6 +11,8 @@ int main()
 	printf("lpMaximumApplicationAddress : 0x%p\n", si.lpMaximumApplicationAddress);
 	printf("dwNumberOfProcessors : %d\n", si.dwNumberOfProcessors);
 	printf("dwProcessorType : %d\n", si.dwProcessorType);
+
+
 	return 0;
 
 }
