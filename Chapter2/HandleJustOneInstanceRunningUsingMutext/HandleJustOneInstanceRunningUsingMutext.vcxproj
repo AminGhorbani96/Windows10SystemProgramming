@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{459ab5f3-a590-43ad-94f4-c9a6df8e1ece}</ProjectGuid>
+    <ProjectGuid>{40C04046-8A83-43BF-86B2-8DDABABAAB4B}</ProjectGuid>
     <RootNamespace>HandleJustOneInstanceRunningUsingMutext</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
